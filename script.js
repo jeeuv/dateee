@@ -35,10 +35,21 @@ noButton.addEventListener('click', () => {
         // Show messages after multiple clicks
         const messages = [
             "Come on, just click 'Yes'!",
-            "You know you want to press 'Yes'!",
-            "Stop being stubborn! Click 'Yes'!",
-            "If you don't press 'Yes', I might get sad 😢",
-            "Okay, seriously... just press 'Yes'!"
+            "Are you sure? Because I think we'd look cute together.",
+            "No worries! I've got a whole playlist of reasons why you should say 'Yes.' Want me to play it?",
+            "Just click 'Yes,' there are more pickup lines!",
+            "I'll bring snacks. You like snacks, right?",
+            "Statistically, saying 'Yes' is better for your health.",
+            "What if I say 'please' with puppy eyes?",
+            "No is just a delayed yes. I’ll wait.",
+            "If you say 'No,' I might just sit here and cry. But no pressure.",
+            "Saying 'Yes' is scientifically proven to increase happiness.",
+            "You're just testing me, aren't you?",
+            "I promise to make it the best date ever!",
+            "The universe wants you to click 'Yes,' trust me.",
+            "Every 'No' gets me closer to the 'Yes.'",
+            "Even the 'No' button secretly wants you to pick 'Yes.'",
+            "Remember, this could be your best decision today.",
         ];
         const messageIndex = Math.min(noClickCount - 2, messages.length - 1);
         alert(messages[messageIndex]);
